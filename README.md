@@ -1,11 +1,14 @@
 # App Description
     Author: Yilin Mo
  
-    ## Setup
+## Setup
     * Windows 10
     * IntelliJ IDEA 2022.3.2 (Community Edition)
     * kotlin.jvm 1.7.20
     * Java SDK 17.0.6 (temurin)
+    
+## Compilation
+Run command "gradlew.bat run" in directory Basic_Version or Enhanced_Version. Make sure that you have installed everything in setup section.
 
 ## Basic Portion
 *The application opens as a window with initial size 800 by 600 units. The layout is “responsive” between the initial size and full screen.
@@ -71,7 +74,7 @@
  
 ## Enhancement 
 I added a new sorting method: 
-* Users can choose to sort displayed courses by course name alphabetically.
+    * Users can choose to sort displayed courses by course name alphabetically.
 I added a data field in the status bar: 
-* Users can see the highest score obtained in displayed courses.
-* WD'ed courses do not count, so if all displayed courses have grade WD, this field will display 0.
+    * Users can see the highest score obtained in displayed courses.
+    * WD'ed courses do not count, so if all displayed courses have grade WD, this field will display 0.
